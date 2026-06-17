@@ -48,6 +48,12 @@
 		padding: 14px 34px;
 	}
 
+	&.filled-light {
+		background-color: var(--light);
+		color: var(--accent);
+		padding: 14px 34px;
+	}
+
 	/* New */
 	&.filter {
 		padding: 11px 34px;
