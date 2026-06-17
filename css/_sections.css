@@ -553,6 +553,7 @@
 				line-height: 110%;
 				letter-spacing: 1px;
 				text-transform: uppercase;
+				font-style: normal;
 			}
 
 			.events-card-badge {
@@ -637,7 +638,7 @@
 	.events-card-date {
 		color: var(--grey);
 		font-family: var(--ff-title), sans-serif;
-		font-size: 16px;
+		font-size: 12px;
 		font-style: italic;
 		font-weight: var(--fw-semibold);
 		line-height: 110%;
