@@ -1,0 +1,84 @@
+.naked-button {
+	
+}
+
+.c-btn {
+	font-family: var(--ff), sans-serif;
+	font-style: normal;
+	line-height: normal;
+	background-color: transparent;
+	text-align: center;
+	transition: opacity ease 300ms, background-color ease 300ms,
+	color ease 300ms;
+	cursor: pointer;
+	padding: 14px 33px;
+	font-weight: var(--fw-bold);
+	color: var(--light);
+	border-color: var(--white);
+	border-radius: 6px;
+	font-size: 12px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	&.filled {
+		background-color: var(--light);
+		color: var(--blue);
+	}
+
+	&.accent {
+		/* style changes */
+		padding: 11px 34px;
+		background-color: transparent;
+		border: 1px solid var(--accent);
+		color: var(--accent);
+	}
+
+	&.dark {
+		background-color: var(--dark-blue);
+		color: var(--light);
+		border: 1px solid var(--dark-blue);
+	}
+
+	/* New */
+	&.filter {
+		padding: 11px 34px;
+		background-color: var(--snow);
+		border: 1px solid var(--ws-grey);
+		color: var(--grey);
+		letter-spacing: 0.56px;
+		font-size: 12px;
+
+		&.active {
+			border: 1px solid var(--accent);
+		}
+
+		@media(min-width: 768px) {
+			font-size: 14px;
+		}
+	}
+
+	&.lg {
+		min-width: auto;
+	}
+
+	&.book-room {
+		color: var(--accent);
+	}
+
+	&:active {
+		opacity: 1;
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.7
+	}
+
+	&:hover {
+		opacity: 0.7;
+	}
+
+	@media(min-width: 992px) {
+		padding: 14px 33px;
+	}
+}

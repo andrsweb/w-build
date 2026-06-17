@@ -1,0 +1,33 @@
+/* Vars */
+:root {
+	--white: #ffffff;
+	--light: #FFFBF0;
+	--wheat: #FBF7EC;
+	--snow: #fffefb;
+	--black: #000000;
+	--dark: #263628;
+	--blue: #003441;
+	--dark-blue: #0D2832;
+	--grey: #535353;
+	--accent: #8E4532;
+	--auburn: #4D1E12;
+	/*new*/
+	--ws-grey: #C8C6BE;
+	--accent-l: #B07D6E;
+
+	--ff: 'Merriweather', sans-serif;
+	--ff-title: 'Cormorant Garamond', sans-serif;
+
+	--fs-xs: 12px;
+	--fs-sm: 14px;
+	--fs-md: 16px;
+	--fs-lg: 18px;
+	--fs-xl: 20px;
+
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-semibold: 600;
+	--fw-bold: 700;
+
+	--lh: 1.1;
+}

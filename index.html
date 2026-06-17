@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Waverlysprings | Invite</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <!--  theme header  -->
+    <main>
+        <!--   hero     -->
+        <section class="invite-hero">
+            <img class="c-image invite-hero-bg b-image"
+                 src="img/hero-bg.jpg" width="1440" height="1005" alt="Bg Image" decoding="async">
+
+            <div class="invite-hero-wrapper">
+                <div class="invite-hero-heading">
+                    <div class="invite-hero-heading-inner">
+                        <div class="invite-hero-subtitle-top">A personal invitation reserved for</div>
+                        <h1 class="invite-hero-title">ReallyReally LongName Guest</h1>
+                        <div class="invite-hero-subtitle-bottom">A Summer’s Evening: A Feast with Faeries and
+                            Firelight
+                        </div>
+                    </div>
+                </div>
+
+                <div class="invite-hero-bottom">
+                    <div class="invite-hero-divider"></div>
+                    <div class="invite-hero-dates">July 10 · July 11 · 6PM</div>
+                    <div class="invite-hero-footer-subtitle">Waverly Springs, Paeonian Springs, Virginia</div>
+                </div>
+
+                <button class="c-btn filled accept-invite-btn" data-modal="invite">Accept Invitation</button>
+
+                <div class="invite-hero-sponsor">
+                    <a href="https://pleasantland.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/pl-logo.svg" width="77" height="77"
+                             alt="Pleasant Land" class="invite-hero-sponsor-logo">
+                    </a>
+                    <div class="invite-hero-sponsor-text">
+                        SPONSORED BY <a href="https://pleasantland.com/" class="invite-hero-sponsor-link"
+                                        target="_blank" rel="noopener noreferrer">PLEASANT LAND</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--   cta     -->
+        <section class="invite-cta">
+            <div class="container">
+                <div class="invite-cta-inner">
+                    <div class="invite-cta-subtitle-top">The evening unfolds</div>
+
+                    <h2 class="invite-cta-title">A Feast with Faeries and Firelight at Waverly Springs</h2>
+
+                    <div class="invite-cta-content editor-content">
+                        <p>A Summer’s Evening: A Feast with Faeries and Firelight is designed as a progression through
+                            four immersive acts, each revealing a different expression of gathering, seasonality, and
+                            place. From wandering aperitifs in the garden to an open-air celebration beneath the evening
+                            sky, the experience moves at the rhythm of summer — unhurried, atmospheric, and deeply
+                            rooted in the landscape of Waverly Springs.</p>
+                    </div>
+
+                    <div class="invite-cta-divider"></div>
+                    <a href="/summer" class="invite-cta-explore-link">
+                        Explore the Full Experience </a>
+
+                    <div class="invite-cta-bottom">
+                        <div class="invite-cta-subtitle-bottom">A reply by the first week of July secures your place.
+                        </div>
+
+                        <button class="c-btn filled dark accept-invite-btn" data-modal="invite">
+                            Accept Invitation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--  theme footer  -->
+    <footer>
+    <!--   popup     -->
+        <div id="invite-popup" class="popup invite-popup is-hidden" data-modal-id="invite">
+            <div class="popup-inner invite-modal">
+                <div class="invite-modal-content">
+                    <h3 class="invite-modal-title">A personal invitation for:</h3>
+                    <div class="invite-modal-name">Very Very Very Long Name</div>
+                    <h5>A Feast with Faeries and Firelight</h5>
+
+                    <div class="invite-modal-details">
+                        <p class="invite-modal-location">Waverly Springs, Paeonian Springs, Virginia</p>
+                    </div>
+
+                    <div class="invite-modal-divider"></div>
+
+                    <form id="invite-form" class="invite-form invite-modal-form">
+                        <h4 class="invite-modal-form-title">Select Your Evening</h4>
+                        <div class="invite-form-radios">
+                            <label class="invite-form-radio">
+                                <input type="radio" name="invite_date" value="July 10" required>
+                                <span class="invite-form-radio-text">July 10</span>
+                            </label>
+                            <label class="invite-form-radio">
+                                <input type="radio" name="invite_date" value="July 11" required>
+                                <span class="invite-form-radio-text">July 11</span>
+                            </label>
+                        </div>
+
+                        <div class="invite-form-guest">
+                            <div class="invite-form-guest-text">
+                                <span class="invite-form-guest-title">Bringing a guest?</span>
+                                <span class="invite-form-guest-subtitle">Your invitation includes one additional seat</span>
+                            </div>
+                            <label class="invite-toggle" aria-label="Bringing a guest">
+                                <input type="checkbox" name="has_guest" class="invite-toggle-input">
+                                <span class="invite-toggle-track"></span>
+                            </label>
+                        </div>
+
+                        <div class="invite-form-dietary">
+                            <label class="invite-form-dietary-label" for="dietary_notes">
+                                DIETARY NOTES <span class="invite-form-dietary-optional">(optional)</span>
+                            </label>
+                            <textarea
+                                id="dietary_notes"
+                                name="dietary_notes"
+                                class="invite-form-dietary-textarea"
+                                placeholder="Any allergies or preferences for you or your guest..."
+                                rows="3"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="c-btn filled dark">Accept Invitation</button>
+                        <p class="invite-modal-note">Seating is limited - a prompt reply secures your place.</p>
+                    </form>
+                </div>
+
+                <div class="invite-modal-confirm">
+                    <button type="button" class="invite-modal-close" data-modal-close></button>
+
+                    <div class="invite-modal-confirm-sparkle">
+                        <span class="invite-modal-confirm-line"></span>
+                        <span class="invite-modal-confirm-star"></span>
+                        <span class="invite-modal-confirm-line"></span>
+                    </div>
+
+                    <h3 class="invite-modal-confirm-title">We'll see you there, <br> Long Long Username</h3>
+
+                    <div class="invite-modal-confirm-badge">
+                        JULY 10 · FRIDAY · 6PM · WAVERLY SPRINGS
+                    </div>
+
+                    <div class="invite-modal-confirm-divider"></div>
+
+                    <p class="invite-modal-confirm-text">
+                        A confirmation has been sent to<br>
+                        <strong>test@mail.com</strong><br>
+                        with details on arrival<br>
+                        and the evening's programme.
+                    </p>
+
+                    <button type="button" class="c-btn filled dark invite-modal-confirm-close" data-modal-close>
+                        CLOSE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

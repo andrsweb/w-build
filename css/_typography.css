@@ -1,0 +1,9 @@
+.sans-body {
+	color: var(--grey);
+	font-family: var(--ff), sans-serif;
+	font-size: 14px;
+	font-weight: var(--fw-light);
+	line-height: 160%;
+	letter-spacing: 0.46px;
+	margin: 0;
+}

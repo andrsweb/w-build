@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Light.eot');
+	src: url('../fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Merriweather-Light.woff2') format('woff2'),
+	url('../fonts/Merriweather-Light.woff') format('woff'),
+	url('../fonts/Merriweather-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Bold.eot');
+	src: url('../fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Merriweather-Bold.woff2') format('woff2'),
+	url('../fonts/Merriweather-Bold.woff') format('woff'),
+	url('../fonts/Merriweather-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Regular.eot');
+	src: url('../fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Merriweather-Regular.woff2') format('woff2'),
+	url('../fonts/Merriweather-Regular.woff') format('woff'),
+	url('../fonts/Merriweather-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Garamond';
+	src: url('../fonts/CormorantGaramond-Bold.eot');
+	src: url('../fonts/CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+	url('../fonts/CormorantGaramond-Bold.woff') format('woff'),
+	url('../fonts/CormorantGaramond-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Garamond';
+	src: url('../fonts/CormorantGaramond-SemiBoldItalic.eot');
+	src: url('../fonts/CormorantGaramond-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/CormorantGaramond-SemiBoldItalic.woff2') format('woff2'),
+	url('../fonts/CormorantGaramond-SemiBoldItalic.woff') format('woff'),
+	url('../fonts/CormorantGaramond-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Garamond';
+	src: url('../fonts/CormorantGaramond-SemiBold.eot');
+	src: url('../fonts/CormorantGaramond-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/CormorantGaramond-SemiBold.woff2') format('woff2'),
+	url('../fonts/CormorantGaramond-SemiBold.woff') format('woff'),
+	url('../fonts/CormorantGaramond-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
