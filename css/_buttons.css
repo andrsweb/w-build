@@ -3,6 +3,7 @@
 }
 
 .c-btn {
+	display: inline-block;
 	font-family: var(--ff), sans-serif;
 	font-style: normal;
 	line-height: normal;
@@ -12,6 +13,7 @@
 	color ease 300ms;
 	cursor: pointer;
 	padding: 14px 33px;
+	text-decoration: none;
 	font-weight: var(--fw-bold);
 	color: var(--light);
 	border-color: var(--white);
@@ -37,6 +39,13 @@
 		background-color: var(--dark-blue);
 		color: var(--light);
 		border: 1px solid var(--dark-blue);
+	}
+
+	&.filled-accent {
+		background-color: var(--accent);
+		color: var(--white);
+		border: 1px solid var(--accent);
+		padding: 14px 34px;
 	}
 
 	/* New */
