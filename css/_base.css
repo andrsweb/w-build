@@ -65,6 +65,10 @@ button {
 	display: none !important;
 }
 
+.color-light {
+	color: var(--light);
+}
+
 .container {
 	width: 100%;
 	margin: 0 auto;
