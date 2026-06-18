@@ -368,6 +368,40 @@
                     </div>
                 </div>
             </div>
+            <!-- Waitlist Popup -->
+            <div id="waitlist-popup" class="popup waitlist-popup is-hidden" data-modal-id="waitlist">
+                <div class="popup-inner waitlist-modal">
+                    <button type="button" class="invite-modal-close" data-modal-close></button>
+                    
+                    <div class="waitlist-modal-content">
+                        <h3 class="waitlist-modal-title">Guest Details</h3>
+                        <p class="waitlist-modal-subtitle sans-body">So we can prepare a proper welcome.</p>
+                        
+                        <form id="waitlist-form" class="waitlist-form">
+                            <div class="waitlist-form-grid">
+                                <div class="waitlist-form-group">
+                                    <label class="waitlist-form-label" for="wl_first_name_s">FIRST NAME*</label>
+                                    <input type="text" id="wl_first_name_s" name="first_name" class="waitlist-form-input" placeholder="Placeholder text" required>
+                                </div>
+                                <div class="waitlist-form-group">
+                                    <label class="waitlist-form-label" for="wl_last_name_s">LAST NAME*</label>
+                                    <input type="text" id="wl_last_name_s" name="last_name" class="waitlist-form-input" placeholder="Placeholder text" required>
+                                </div>
+                                <div class="waitlist-form-group">
+                                    <label class="waitlist-form-label" for="wl_email_s">EMAIL*</label>
+                                    <input type="email" id="wl_email_s" name="email" class="waitlist-form-input" placeholder="Placeholder text" required>
+                                </div>
+                                <div class="waitlist-form-group">
+                                    <label class="waitlist-form-label" for="wl_phone_s">PHONE NUMBER*</label>
+                                    <input type="tel" id="wl_phone_s" name="phone" class="waitlist-form-input" placeholder="Placeholder text" required>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="c-btn accent waitlist-form-btn">JOIN WAITLIST</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
     <script src="js/main.js"></script>

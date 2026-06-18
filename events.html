@@ -71,7 +71,7 @@
                                         <li>TWENTY SEATS</li>
                                         <li>WAVERLY SPRINGS</li>
                                     </ul>
-                                    <button class="c-btn accent border">JOIN WAITLIST</button>
+                                    <button class="c-btn accent border" data-modal="waitlist">JOIN WAITLIST</button>
                                 </div>
                             </div>
 
@@ -302,6 +302,40 @@
                     <button type="button" class="c-btn filled dark invite-modal-confirm-close" data-modal-close>
                         CLOSE
                     </button>
+                </div>
+            </div>
+        </div>
+        <!-- Waitlist Popup -->
+        <div id="waitlist-popup" class="popup waitlist-popup is-hidden" data-modal-id="waitlist">
+            <div class="popup-inner waitlist-modal">
+                <button type="button" class="invite-modal-close" data-modal-close></button>
+                
+                <div class="waitlist-modal-content">
+                    <h3 class="waitlist-modal-title">Guest Details</h3>
+                    <p class="waitlist-modal-subtitle sans-body">So we can prepare a proper welcome.</p>
+                    
+                    <form id="waitlist-form" class="waitlist-form">
+                        <div class="waitlist-form-grid">
+                            <div class="waitlist-form-group">
+                                <label class="waitlist-form-label" for="wl_first_name">FIRST NAME*</label>
+                                <input type="text" id="wl_first_name" name="first_name" class="waitlist-form-input" placeholder="Placeholder text" required>
+                            </div>
+                            <div class="waitlist-form-group">
+                                <label class="waitlist-form-label" for="wl_last_name">LAST NAME*</label>
+                                <input type="text" id="wl_last_name" name="last_name" class="waitlist-form-input" placeholder="Placeholder text" required>
+                            </div>
+                            <div class="waitlist-form-group">
+                                <label class="waitlist-form-label" for="wl_email">EMAIL*</label>
+                                <input type="email" id="wl_email" name="email" class="waitlist-form-input" placeholder="Placeholder text" required>
+                            </div>
+                            <div class="waitlist-form-group">
+                                <label class="waitlist-form-label" for="wl_phone">PHONE NUMBER*</label>
+                                <input type="tel" id="wl_phone" name="phone" class="waitlist-form-input" placeholder="Placeholder text" required>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="c-btn accent waitlist-form-btn">JOIN WAITLIST</button>
+                    </form>
                 </div>
             </div>
         </div>

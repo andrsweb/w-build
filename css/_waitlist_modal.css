@@ -1,0 +1,126 @@
+/* Waitlist popup */
+.waitlist-popup {
+	align-items: center;
+	margin: auto 0;
+
+	.popup-inner {
+		max-width: 980px;
+		padding: 0;
+		background-color: #FFFEFB;
+		border-radius: 4px;
+		position: relative;
+	}
+
+	.waitlist-modal-content {
+		padding: 30px;
+		text-align: left;
+
+		@media(min-width: 768px) {
+			padding: 56px;
+		}
+	}
+
+	.waitlist-modal-title {
+		font-family: var(--ff-title), sans-serif;
+		font-size: 32px;
+		font-weight: var(--fw-regular);
+		color: var(--accent);
+		margin: 0 0 12px 0;
+	}
+
+	.waitlist-modal-subtitle {
+		color: var(--grey);
+		margin: 0 0 40px 0;
+	}
+
+	.waitlist-form-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 24px;
+		margin-bottom: 40px;
+
+		@media(min-width: 768px) {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	.waitlist-form-group {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.waitlist-form-label {
+		font-family: var(--ff-title), sans-serif;
+		font-weight: var(--fw-bold);
+		font-size: 14px;
+		letter-spacing: 2px;
+		color: var(--grey);
+		text-transform: uppercase;
+	}
+
+	.waitlist-form-input {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 12px 16px;
+		border: 1px solid #BFBFBF;
+		border-radius: 4px;
+		background-color: var(--white);
+		font-family: var(--ff), sans-serif;
+		font-size: 14px;
+		font-weight: var(--fw-light);
+		color: var(--dark-blue);
+		outline: none;
+		transition: border-color 200ms ease;
+
+		&::placeholder {
+			color: var(--grey);
+			opacity: 0.7;
+		}
+
+		&:focus {
+			border-color: var(--auburn);
+		}
+	}
+
+	.waitlist-form-btn {
+		width: 100%;
+		max-width: 200px;
+		padding: 16px;
+	}
+
+	.invite-modal-close {
+		position: absolute;
+		top: 24px;
+		right: 24px;
+		width: 32px;
+		height: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		padding: 0;
+		z-index: 10;
+
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			width: 18px;
+			height: 1.5px;
+			background-color: var(--grey);
+			border-radius: 2px;
+			transition: background-color 200ms ease;
+		}
+
+		&::before { transform: rotate(45deg); }
+		&::after  { transform: rotate(-45deg); }
+
+		&:hover::before,
+		&:hover::after {
+			background-color: var(--accent);
+		}
+	}
+}
